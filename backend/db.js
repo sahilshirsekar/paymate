@@ -2,7 +2,7 @@ const { mongoose, Schema, model } = require("mongoose");
 const { string } = require("zod");
 mongoose
   .connect(
-    "mongodb://localhost:27017"
+    "mongodb://localhost:27017/paytm"
   )
   .then(() => console.log("Connected!"));
 const userSchema = new mongoose.Schema({
