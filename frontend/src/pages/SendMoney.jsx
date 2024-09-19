@@ -5,7 +5,7 @@ import { useState } from 'react';
 export const SendMoney = () => {
     const [searchParams] = useSearchParams() 
     const id = searchParams.get("id");
-    const name = searchParams.get("name") || "Aman asati";
+    const name = searchParams.get("name") || "Sahil Shirsekar";
     const [amount, setAmount] = useState(0);
 
     return (
